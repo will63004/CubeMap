@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: CubeMaterials
+  m_EditorClassIdentifier: 
+  m_GroupName: CubeMaterials
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 229998ff40e7c44468aa96b0823102c0
+  m_SerializeEntries:
+  - m_GUID: 052821051301bb849ab0e4f50ad32d10
+    m_Address: Assets/Addressible/Cubes/Materials/Grey Stones.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 11729fa27a679db4fbeedeff9e7512fe
+    m_Address: Assets/Addressible/Cubes/Materials/Grass.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 1af41386b6aebff43af8aff2e57927a8
+    m_Address: Assets/Addressible/Cubes/Materials/Brown Stony.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3c560b1c5b4a7c048ba5f9b87a27ffd7
+    m_Address: Assets/Addressible/Cubes/Materials/Brown Stony Light.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6c8cc2afdf3d02049b71a1f5abc7ab90
+    m_Address: Assets/Addressible/Cubes/Materials/Sandy Orange.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 731960bee06a1174683f3e96b29f5afb
+    m_Address: Assets/Addressible/Cubes/Materials/Water Deep Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bd26e3d2d0f56b54d95b8f3b244d407f
+    m_Address: Assets/Addressible/Cubes/Materials/Sandy.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: fb0d97085daff70438b2a95dcef13a93
+    m_Address: Assets/Addressible/Cubes/Materials/Water Light Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 028e284f20276ab4d92f5cd256875fc5, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 661afda015c7c21438e3aa84ea774bfb, type: 2}
+    - {fileID: 11400000, guid: 7b152f9c23e03214794bfef36eb05a23, type: 2}
