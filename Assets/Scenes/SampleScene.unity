@@ -151,18 +151,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f1be16e44a914648906a0ce8d444014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  refinement: 0.1
-  multiplier: 10
   x: 50
   y: 100
   z: 50
+  refinement: 0.1
+  multiplier: 10
   offsetX: 0
   offsetY: 0
-  densityRefinementX: 2.6
-  densityOffsetX: 0
-  densityRefinementY: 1.74
-  densityOffsetY: 1.35
-  densityPriority: 0.5
+  densityRefinement: 0.9
+  densityRefinementDiminishing: 0.9
+  stoneDensity: 0.3
+  altitude: 2
 --- !u!4 &65991944
 Transform:
   m_ObjectHideFlags: 0
@@ -189,7 +188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d4680e2c46dcd84aa0ea74da471e575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  refinement: 0.1
+  perlinNoise: 0
+  refinement: {x: 0, y: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

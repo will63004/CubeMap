@@ -10,13 +10,13 @@ namespace Assets.Scripts
     class Test:MonoBehaviour
     {
         [SerializeField]
-        private float refinement = 0.1f;
+        private float perlinNoise;
+        [SerializeField]
+        private Vector2 refinement;
 
         private void Update()
         {
-            float perlinNoise = Mathf.PerlinNoise(refinement, Time.time);
-            GameObject go = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            go.transform.position = new Vector3(perlinNoise, 0, Time.time);
+            perlinNoise = Mathf.PerlinNoise(refinement.x, refinement.y);
         }
     }
 }
